@@ -37,3 +37,5 @@ connectDB().then(() => {
   console.error(err);
 });
 
+// to run , node run server
+
