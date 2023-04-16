@@ -42,6 +42,7 @@ const patientSchema = mongoose.Schema({
     type: String,
     required: [true, 'Please add an insurance provider'],
   },
+  
   insurancePolicyNumber: {
     type: String,
     required: [true, 'Please add an insurance policy number'],
