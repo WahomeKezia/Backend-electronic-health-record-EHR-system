@@ -64,7 +64,7 @@ const addMedicalHistory = asyncHandler(async (req, res) => {
 
 // @desc    Update a medical history for a patient
 // @route   PUT /api/medical-history/:id
-// @access  Private 
+// @access  Private (Medical Practioner only)
 const updateMedicalHistory = asyncHandler(async (req, res) => {
   const {
     dateOfVisit,
